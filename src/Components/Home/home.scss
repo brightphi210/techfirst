@@ -258,8 +258,14 @@
     }
 
     .sectionTwoText p{
-        font-size: 13px;
-        padding: 30px 0;
+        font-size: 12px;
+        padding: 10px 0;
         color: black;
+        text-align: justify;
+    }
+
+    .sectionTwoText button{
+        font-size: 12px;
+        padding: 10px 20px;
     }
 }
