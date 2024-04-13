@@ -13,6 +13,11 @@ const SectionTwo = () => {
               Experience Canva Create in person with 50+ speakers, 15+ sessions and workshops led by the Canva team. Can’t make it to L.A.? Tune in to the keynote online to get a first look at the new launches.
             </p>
 
+            <div className='dateTime'>
+              <h3 className='myH3'>Date: 23rd May 2024</h3>
+              <h3>Time: 9am</h3>
+            </div>
+
             <button>Get free ticktet <FaLocationArrow /></button>
           </div>
 

@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <ul>
             <li>Speakers</li>
-            <li>Sponsor</li>
+            <li>Sponsors</li>
             <li>About</li>
             <li className='register'>Register</li>
         </ul>

@@ -225,6 +225,22 @@
 }
 
 
+.dateTime{
+    display: flex;
+    gap: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.dateTime h3{
+    text-transform: uppercase;
+}
+
+.myH3{
+    border-right: solid 2px $purple-color;
+    padding-right: 20px;
+}
+
 
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
     
@@ -267,5 +283,24 @@
     .sectionTwoText button{
         font-size: 12px;
         padding: 10px 20px;
+    }
+
+
+
+    .dateTime{
+        display: flex;
+        gap: 10px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .dateTime h3{
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    
+    .myH3{
+        border-right: solid 2px $purple-color;
+        padding-right: 20px;
     }
 }
