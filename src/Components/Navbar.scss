@@ -1,0 +1,102 @@
+
+@import '../variable.scss';
+
+
+.nav{
+    display: flex;
+    margin: 0 20%;
+    padding: 15px 40px;
+    background-color: $purple-color;
+    border-radius: 10px;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.nav ul{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+.nav ul li:hover{
+    color: rgb(227, 196, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.register {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: black;
+}
+
+.nav img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.showLogo2 {
+    display: none;
+}
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .nav{
+        display: flex;
+        margin: 0 5%;
+        padding:10px;
+        background-color: $purple-color;
+        border-radius: 10px;
+    }
+
+
+    .nav img{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .showLogo1{
+        display: none;
+    }
+
+
+    .showLogo2{
+        display: block;
+    }
+
+
+    .nav ul{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .nav ul li{
+        list-style: none;
+        cursor: pointer;
+        font-size: 11px;
+    }
+
+
+    .register {
+        background-color: white;
+        border-radius: 5px;
+        padding: 8px;
+        color: black;
+    }
+
+    
+}

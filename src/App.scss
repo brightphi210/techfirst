@@ -1,8 +1,8 @@
-@import '../variables.scss';
+@import './variable.scss';
 
 *{@include default}
 
 body{
-    background-color:black;
+    background-color: black;
     color: white;
 }
