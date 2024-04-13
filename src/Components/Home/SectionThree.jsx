@@ -10,7 +10,7 @@ const SectionThree = () => {
   return (
     <div className='sectionThreeMain'>
         <div className='sectionThreeDiv'>
-            <h2>Tech Fest</h2>
+            <h2 className='meetH2'>Tech Fest</h2>
             <h3>Reason why you should attend</h3>
         </div>
 
