@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.scss'
 import logo from './images/Techfest2.png'
 import logo2 from './images/Techfest1.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -15,7 +16,10 @@ const Navbar = () => {
             <li>Speakers</li>
             <li>Sponsors</li>
             <li>About</li>
-            <li className='register'>Register</li>
+            <Link to={'https://forms.gle/iMwwi67bN38JU9L39'} className='link'>
+                <li className='register'>Register</li>
+            </Link>
+            
         </ul>
     </div>
   )
