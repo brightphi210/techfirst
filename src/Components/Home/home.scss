@@ -360,6 +360,12 @@
 }
 
 
+.sectionThreeDiv h3{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
     .sectionThreeFlex {
         display: grid;
