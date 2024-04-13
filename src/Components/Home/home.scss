@@ -304,3 +304,86 @@
         padding-right: 20px;
     }
 }
+
+
+
+// ================= sectionThreeMain ============================
+
+.sectionThreeMain{
+    background-color: rgb(8, 8, 8);
+    padding: 30px;
+}
+
+.sectionThreeDiv{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.sectionThreeFlex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    // align-items: center;
+    gap: 30px;
+    padding: 10px 5%;
+}
+
+
+.sectionThreeFlex div{
+    width: 100%;
+    background-color: $purple-color;
+    background: linear-gradient(186deg, rgb(30, 30, 30) 0%, rgb(22, 22, 22) 100%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.sectionThreeFlex h2{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.sectionThreeFlex p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.sectionThreeFlex span{
+    font-size: 25px;
+    background-color: white;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    width: fit-content;
+    color: $purple-color;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .sectionThreeFlex {
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 30px;
+        padding: 10px 5%;
+    }
+
+    .sectionThreeMain{
+        background-color: rgb(8, 8, 8);
+        padding: 10px;
+    }
+    .sectionThreeFlex div{
+        padding: 20px;
+    }
+    
+
+    .sectionThreeFlex h2{
+        padding: 20px 0;
+        font-size: 15px;
+    }
+
+    .sectionThreeFlex span{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
