@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.scss'
+import { Link } from 'react-router-dom'
 
 const SectionOne = () => {
   return (
@@ -15,7 +16,10 @@ const SectionOne = () => {
         </h3>
 
         <div className='sectionOneBtn'>
-          <button >Free Registration</button>
+
+          <Link to={'https://forms.gle/iMwwi67bN38JU9L39'} className='link'>
+            <button >Free Registration</button>
+          </Link>
           <button className='sponsor'>Sponsor</button>
         </div>
 
