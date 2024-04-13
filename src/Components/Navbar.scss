@@ -10,10 +10,10 @@
     border-radius: 10px;
     align-items: center;
     position: fixed;
-    top: 50px;
+    top: 30px;
     right: 0;
     left: 0;
-    z-index: 100;
+    z-index: 300;
 }
 
 
@@ -59,6 +59,7 @@
         padding:10px;
         background-color: $purple-color;
         border-radius: 10px;
+        top: 30px;
     }
 
 
