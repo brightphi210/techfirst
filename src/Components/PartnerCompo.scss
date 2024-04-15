@@ -53,7 +53,29 @@ form button{
     form{
         width: 90%;
         background-color: rgb(21, 21, 21);
-        padding: 30px;
+        padding: 50px 30px;
         border-radius: 10px;
+    }
+
+
+    form input{
+        display: block;
+        padding: 15px ;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(21, 21, 21);
+        color: white;
+        font-size: 13px;
+        border: solid 1px $purple-color;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    
+    form button{
+        border-radius: 5px;
+        font-size: 13px;
     }
 }

@@ -13,8 +13,9 @@ const Navbar = () => {
         </div>
 
         <ul>
+            <Link to={'/'}><li>Home</li></Link>
             <Link to={'/sponsors'}><li>Speakers</li></Link>
-            <Link to={'/partners'}><li>Partners</li></Link>
+            <Link to={'/partners'}><li>Be a Partner</li></Link>
             
             <Link to={'https://forms.gle/iMwwi67bN38JU9L39'} className='link'>
                 <li className='register'>Register</li>
