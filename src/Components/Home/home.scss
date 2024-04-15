@@ -164,6 +164,17 @@
 }
 
 
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .sectionTextDiv h2{
+        isolation: isolate;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px 0;
+        line-height: 40px;
+    }
+}
+
+
 
 // ================ SECTION TWO ======================
 
@@ -428,10 +439,14 @@
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1025px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     .sectionThreeFlex p{
         font-size: 12px;
         line-height: 25px;
+    }
+
+    .sectionThreeFlex div{
+        padding: 20px;
     }
 
 
@@ -444,6 +459,10 @@
     padding: 10px 5%;
 }
 }
+
+
+
+
 
 
 // ================== sectionFourMain ===================
