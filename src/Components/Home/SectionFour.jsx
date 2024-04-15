@@ -110,6 +110,8 @@ const SectionFour = () => {
                 </div>
             </div>
         </div>
+
+        <button>See More</button>
     </div>
   )
 }
