@@ -312,6 +312,22 @@
 
 
 
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+    .sectionDiv{
+        display: flex;
+        padding: 20px !important;
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+    .sectionTwoText h2{
+        font-size: 30px;
+        font-weight: 500;
+        color: black;
+    }
+}
+
+
 // ================= sectionThreeMain ============================
 
 .sectionThreeMain{
@@ -411,6 +427,23 @@
 }
 }
 
+
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+    .sectionThreeFlex p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+
+    
+.sectionThreeFlex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // align-items: center;
+    gap: 30px;
+    padding: 10px 5%;
+}
+}
 
 
 // ================== sectionFourMain ===================
