@@ -1,5 +1,6 @@
 import React from 'react'
 import sport5 from '../images/sponsors/loctech PNG white.png'
+import { Link } from 'react-router-dom'
 
 const SectionSix = () => {
   return (
@@ -33,7 +34,9 @@ const SectionSix = () => {
           
         </div>
 
-        <button>See All Partners</button>
+        <Link to={'/partners'}>
+          <button>Become a partner</button>
+        </Link>
     </div>
   )
 }
