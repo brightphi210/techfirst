@@ -1,0 +1,46 @@
+@import '../variable.scss';
+
+.footer{
+    background-color: $purple-color;
+    display: flex;
+    padding: 50px 6%;
+    align-items: center;
+}
+
+
+.footer img{
+    width: 200px;
+}
+
+
+.footer ul{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.footer ul li{
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .footer{
+        background-color: $purple-color;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 6%;
+        align-items: center;
+    }
+
+
+    .footer ul{
+        margin: 0;
+        display: flex;
+        gap: 30px;
+    }
+}

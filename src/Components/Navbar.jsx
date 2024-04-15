@@ -14,7 +14,7 @@ const Navbar = () => {
 
         <ul>
             <li>Speakers</li>
-            <li>Sponsors</li>
+            <li>Partners</li>
             <li>About</li>
             <Link to={'https://forms.gle/iMwwi67bN38JU9L39'} className='link'>
                 <li className='register'>Register</li>
