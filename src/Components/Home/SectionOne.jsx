@@ -20,7 +20,8 @@ const SectionOne = () => {
           <Link to={'https://forms.gle/iMwwi67bN38JU9L39'} className='link'>
             <button >Free Registration</button>
           </Link>
-          <button className='sponsor'>Sponsor</button>
+          
+          <Link to={'/sponsors'}><button className='sponsor'>Sponsor</button></Link>
         </div>
 
       </div>
